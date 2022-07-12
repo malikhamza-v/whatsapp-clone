@@ -1,0 +1,23 @@
+.chatboxHeader {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+.chatboxHeader__info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chatboxHeader__info > h3 {
+  margin-bottom: 3px;
+}
+.chatboxHeader__info > p {
+  color: gray;
+}
+
+@media (max-width: 861px) {
+  .chatboxHeader__icons {
+    display: none;
+  }
+}

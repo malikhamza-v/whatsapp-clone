@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  /* margin-top: -3rem; */
+  background-color: gray;
+}
+.login__logo {
+  margin-top: -5rem;
+  margin-bottom: 3rem;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 90%;
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.login__input > input {
+  border: none;
+  outline-width: 0;
+  margin-left: 10px;
+  width: 70%;
+}

@@ -1,0 +1,36 @@
+.chatbox {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+  justify-content: center;
+}
+
+.chatbox__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  border-top: 1px solid lightgray;
+}
+
+.chatbox__footer > form {
+  flex: 1;
+  display: flex;
+}
+.chatbox__footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+}
+
+.chatbox__footer > form > button {
+  border: none;
+  margin-left: 2px;
+}
+@media (max-width: 714px) {
+  .chatbox {
+    flex: 1;
+  }
+}

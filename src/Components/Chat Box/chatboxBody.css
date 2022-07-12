@@ -1,0 +1,34 @@
+.chatboxBody {
+  flex: 1;
+  background-color: lightgray;
+  padding: 30px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatboxBody__message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.message__receiver {
+  background-color: #dcf8c6;
+  margin-left: auto;
+}
+.chatboxBody__message__name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+
+.chatboxBody__message__timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
